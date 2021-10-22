@@ -22,21 +22,21 @@
                 <th scope="col">Tel</th>
             </tr>
         </thead>
-        <?php
-            include_once('connection.php');
-            $result=pg_query("select * from public.customer");
-            while($row=pg_fetch_array($result,PGSQL_ASSOC){
-        ?>
         <tbody>
-            <tr>
-                <td><?php echo $row['username'];?></td>
-                <td><?php echo $row['customername'];?></td>
-                <td><?php echo $row['tel'];?></td>
-            </tr>
-        </tbody>
-        <?php>
+            <?php
+            include_once('connection.php');
+            $result = pg_query($connect, "select * from public.customer");
+            while ($row = pg_fetch_array($result, NULL, PGSQL_ASSOC)) {
+            ?>
+                <tr>
+                    <td><?php echo $row['username']; ?></td>
+                    <td><?php echo $row['customername']; ?></td>
+                    <td><?php echo $row['tel']; ?></td>
+                </tr>
+            <?php
             }
-        <?>
+            ?>
+        </tbody>
     </table>
 
 </body>
