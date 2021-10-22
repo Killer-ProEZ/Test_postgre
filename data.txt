@@ -1,0 +1,32 @@
+-- SQLINES LICENSE FOR EVALUATION USE ONLY
+CREATE TABLE customer (
+  CustomerID int NOT NULL,
+  UserName varchar(50) NOT NULL,
+  Password varchar(150) NOT NULL,
+  CustomerName varchar(50) NOT NULL,
+  Tel int NOT NULL,
+  Email varchar(150) NOT NULL,
+  Address varchar(150) NOT NULL,
+  State int NOT NULL
+) ;
+
+--
+-- SQLINES DEMO  table `customer`
+--
+
+INSERT INTO customer (CustomerID, UserName, Password, CustomerName, Tel, Email, Address, State) VALUES
+(5, 'Hao', '113035048d5e87ee1c0a10142a545544', 'Tran Phuoc Hao', 346370328, 'ht0164676@gmail.com', 'cwef', 0),
+(7, 'Hao1', '25d55ad283aa400af464c76d713c07ad', 'sdsdsadsa', 346370328, 'ht01646213112@gmail.com', 'cwef', 0),
+(8, 'Tran Phu', 'fcea920f7412b5da7be0cf42b8c93759', 'Tran Phuoc Hao', 2147483647, 'ht0164faffa@gmail.com', 'cwef', 0),
+(9, 'Haogdf', 'e10adc3949ba59abbe56e057f20f883e', 'Tran Phuoc Hao', 346370328, 'ht01646df@gmail.com', 'cwef', 1),
+(10, 'HaoHao', '25d55ad283aa400af464c76d713c07ad', 'HH', 2147483647, 'ht016465ewr@gmail.com', 'cwef', 0),
+(11, 'Hao11', 'e10adc3949ba59abbe56e057f20f883e', 'Tran Phuoc Haoe', 2147483647, 'ht016446@gmail.com', 'cwef', 0),
+(12, 'Hao111', 'fcea920f7412b5da7be0cf42b8c93759', 'Tran Phuoc Haoe', 346370328, 'ht0164645@gmail.com', 'cwef', 0),
+(13, 'Hao22', 'e10adc3949ba59abbe56e057f20f883e', 'Tran Phuoc Haop', 2147483647, 'ht01646743@gmail.com', 'cwef', 0),
+(14, 'Hao1t', 'fcea920f7412b5da7be0cf42b8c93759', 'sdsdsadsa', 346370328, 'ht01646776@gmail.com', 'cwef', 0),
+(15, 'Haoj', '4058cc160130ea51b65fcd1fab2c2eb9', 'g', 2147483647, 'ht0164hgigh6@gmail.com', 'cwef', 0),
+(16, 'TheBest', 'e10adc3949ba59abbe56e057f20f883e', 'Tran Van An', 346370322, 'ht0164621@gmail.com', 'Can Tho', 0),
+(17, 'TheBest0z', 'e10adc3949ba59abbe56e057f20f883e', 'Tran Van An', 346370324, 'ht0164643@gmail.com', 'Can Tho', 0),
+(18, 'zolmkoz1u', 'e10adc3949ba59abbe56e057f20f883e', 'ewee', 346370328, 'ht01646d@gmail.com', 'Can Tho', 0),
+(19, 'Haouui', 'fcea920f7412b5da7be0cf42b8c93759', 'ewe', 346370328, 'ht0164ftgf@gmail.com', 'cwef', 0),
+(20, 'Dung', 'e10adc3949ba59abbe56e057f20f883e', 'Dung', 2147483647, 'ht01646e@gmail.com', 'Can Tho', 1);
